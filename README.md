@@ -27,7 +27,7 @@ v. React Native: React can be used to build mobile applications using React Nati
 
 
 - QUESTION 4
- What is the name of the Software Engineer that created React? Also, which company owns React?
+What is the name of the Software Engineer that created React? Also, which company owns React?
 
 Ans: React was created by Jordan Walke, a software engineer at Facebook. He first released React as an open-source library in 2013. Since then, React has grown in popularity and has become one of the most widely used front-end frameworks for building web applications.
 
@@ -37,27 +37,26 @@ React is maintained by Facebook and a community of developers who contribute to 
 - QUESTION 5
 What are the notable differences between HTML & JSX? Give at least 3 of them
 
- (i)Syntax: HTML uses angle brackets and attributes to define elements, while JSX uses curly braces and properties to define elements. For example, in HTML, a button element would be defined like this:
- N.B In JSX, the same button element would be defined like this:
-      In html <button class="btn">Click me</button>
-      In JSX <button className="btn">Click me</button>
+(i)Syntax: HTML uses angle brackets and attributes to define elements, while JSX uses curly braces and properties to define elements. For example, in HTML, a button element would be defined like this:
+N.B In JSX, the same button element would be defined like this:
+In html <button class="btn">Click me</button>
+In JSX <button className="btn">Click me</button>
 
- (ii) Attributes: HTML and JSX use different attributes to define element properties. For example, in HTML, to add a disabled property to a button element, you would use the disabled attribute:
-      In CSS <button disabled>Disabled button</button>
-      In JSX, you would define the disabled property as a boolean value within the button element's properties: <button disabled={true}>Disabled button</button>
-  (iii) Embedding dynamic content: In HTML, to embed dynamic content, you would use template languages such as Mustache or handlebars. In JSX, you can embed dynamic content directly within curly braces:
-        In JavaScript  const name = "John";
-        // JSX
-        <p>Hello, {name}!</p>
-        // In CSS
-        <p>Hello, John!</p>
+(ii) Attributes: HTML and JSX use different attributes to define element properties. For example, in HTML, to add a disabled property to a button element, you would use the disabled attribute:
+In CSS <button disabled>Disabled button</button>
+In JSX, you would define the disabled property as a boolean value within the button element's properties: <button disabled={true}>Disabled button</button>
+(iii) Embedding dynamic content: In HTML, to embed dynamic content, you would use template languages such as Mustache or handlebars. In JSX, you can embed dynamic content directly within curly braces:
+In JavaScript  const name = "John";
+// JSX
+<p>Hello, {name}!</p>
+ // In CSS
+ <p>Hello, John!</p>
 
 - QUESTION 6
  Why can’t browsers read JSX?
- Ans: rowsers are designed to read and render HTML, CSS, and JavaScript code. JSX, on the other hand, is a syntax extension of JavaScript and is not a native browser language.
-     When JSX code is written in a JavaScript file, it needs to be transformed into regular JavaScript code that browsers can understand. This transformation process is typically done using a tool called a transpiler or compiler. The most popular transpiler for JSX is  Babel, which converts JSX syntax into regular JavaScript syntax.
-    Once the JSX code has been transformed into regular JavaScript code, it can be included in an HTML file and executed by a browser as part of a web application.
-    It's important to note that while JSX may not be directly readable by browsers, it is an important tool for building modern web applications using libraries and frameworks like React. These tools use JSX to define the structure and behavior of web components, which are then transformed into regular JavaScript code that can be executed by browsers.
+ Ans: rowsers are designed to read and render HTML, CSS, and JavaScript code. JSX, on the other hand, is a syntax extension of JavaScript and is not a native browser     language.
+  When JSX code is written in a JavaScript file, it needs to be transformed into regular JavaScript code that browsers can understand. This transformation process is     typically done using a tool called a transpiler or compiler. The most popular transpiler for JSX is  Babel, which converts JSX syntax into regular JavaScript syntax.   Once the JSX code has been transformed into regular JavaScript code, it can be included in an HTML file and executed by a browser as part of a web application.
+ It's important to note that while JSX may not be directly readable by browsers, it is an important tool for building modern web applications using libraries and      frameworks like React. These tools use JSX to define the structure and behavior of web components, which are then transformed into regular JavaScript code that can be   executed by browsers.
 
 
 
