@@ -1,5 +1,6 @@
-- QUESTION 2:
-. List five significant features of React
+. QUESTION 2:
+
+- List five significant features of React
 
 i. Virtual DOM: React uses a virtual DOM (Document Object Model) which is a lightweight copy of the actual DOM. The virtual DOM is used to determine the changes that need to be made to the actual DOM, and then only those changes are applied. This approach helps to make React's rendering process faster and more efficient.
 
@@ -12,8 +13,9 @@ iv. JSX: React uses JSX (JavaScript XML), which is a syntax extension for JavaSc
 v. React Native: React can be used to build mobile applications using React Native. React Native allows developers to write code once and deploy it to both iOS and Android platforms, saving development time and resources.
 
 
-- QUESTION 3:
-. List five major advantages of React
+. QUESTION 3:
+
+- List five major advantages of React
 
 i. Reusable components: React's component-based architecture allows developers to create reusable UI components, which can be used across multiple parts of an application. This approach helps to improve development efficiency, reduce code duplication, and make the application easier to maintain.
 
@@ -26,16 +28,16 @@ iv. Large developer community: React has a large and active community of develop
 v. React Native: React can be used to build mobile applications using React Native, which allows developers to write code once and deploy it to both iOS and Android platforms. This approach saves development time and resources, while still providing a native-like user experience.
 
 
-- QUESTION 4
-What is the name of the Software Engineer that created React? Also, which company owns React?
+. QUESTION 4
+- What is the name of the Software Engineer that created React? Also, which company owns React?
 
 Ans: React was created by Jordan Walke, a software engineer at Facebook. He first released React as an open-source library in 2013. Since then, React has grown in popularity and has become one of the most widely used front-end frameworks for building web applications.
 
 React is maintained by Facebook and a community of developers who contribute to its development. While React is open-source and free to use, Facebook does own the trademark for the React name and logo.
 
 
-- QUESTION 5
-What are the notable differences between HTML & JSX? Give at least 3 of them
+. QUESTION 5
+- What are the notable differences between HTML & JSX? Give at least 3 of them
 
 (i)Syntax: HTML uses angle brackets and attributes to define elements, while JSX uses curly braces and properties to define elements. For example, in HTML, a button element would be defined like this:
 N.B In JSX, the same button element would be defined like this:
@@ -52,11 +54,11 @@ In JavaScript  const name = "John";
  // In CSS
  <p>Hello, John!</p>
 
-- QUESTION 6
- Why can’t browsers read JSX?
+. QUESTION 6
+ - Why can’t browsers read JSX?
  Ans: rowsers are designed to read and render HTML, CSS, and JavaScript code. JSX, on the other hand, is a syntax extension of JavaScript and is not a native browser     language.
   When JSX code is written in a JavaScript file, it needs to be transformed into regular JavaScript code that browsers can understand. This transformation process is     typically done using a tool called a transpiler or compiler. The most popular transpiler for JSX is  Babel, which converts JSX syntax into regular JavaScript syntax.   Once the JSX code has been transformed into regular JavaScript code, it can be included in an HTML file and executed by a browser as part of a web application.
- It's important to note that while JSX may not be directly readable by browsers, it is an important tool for building modern web applications using libraries and      frameworks like React. These tools use JSX to define the structure and behavior of web components, which are then transformed into regular JavaScript code that can be   executed by browsers.
+ It's important to note that while JSX may not be directly readable by browsers, it is an important tool for building modern web applications using libraries and         frameworks like React. These tools use JSX to define the structure and behavior of web components, which are then transformed into regular JavaScript code that can be executed by browsers.
 
 
 
